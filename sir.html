@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            margin:0px;
+        }
+        .header{
+height: 100px;
+width:100%;
+border: 1px solid black;
+text-align: center;
+/* align-items: center; */
+        }
+
+        .content{
+            display:flex;
+            height:500px;
+            width:100%;
+border: 1px solid black;
+text-align: center;
+/* align-items: center; */
+
+        }
+        .sidebar{
+            height: 500px;
+            width:25%;
+border: 1px solid black;
+text-align: center;
+/* align-items: center; */
+
+
+        }
+        .main-content{
+            width:100%;
+            height:500px;
+border: 1px solid black;
+text-align: center;
+/* align-items: center; */
+        }
+        .footer{
+            height:110px;
+            width:100%;
+border: 1px solid black;
+text-align: center;
+/* align-items: center; */
+        }
+        
+
+
+        ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    background-color: rgb(216,190,240);
+    width:100%;
+    position: fixed;  
+    }
+li{
+    float:left;
+
+}
+li a{
+    display: block;
+    padding: 40px;
+    text-decoration: none;
+    color:black;
+}
+li a:hover{
+    background-color: aqua;
+}
+    .main-content1{
+    height:400px;
+    width:25%;
+    border: 1px solid black;
+    margin-top: 25px;
+    margin-left: 450px;
+    padding: 30px;
+    }
+    
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+             <div class="navbar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li> <a href="#contact">Contacts</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li> <a href="gallery">Gallery</a></li>
+                </ul>
+             </div>
+        </div>
+        <div class="content">
+            <div class="sidebar">Sidebar</div>
+<div class="main-content">
+    <div class="main-content1">
+
+    
+        <h2><center>Register Form</center></h2>
+        <label>Name</label>
+        <input type="text" id="name" placeholder="Your Name">
+        <br><br>
+        <label>City</label>
+        <input type="text" id="city" placeholder="Your City Name">
+        <br><br>
+        <label>Email</label>
+        <input type="text" id="email" placeholder="Your Email">
+        <br><br>
+        <label>Gender</label><br>
+        <input type="radio" name="gender" id="male">Male
+        <input type="radio" name="gender" id="female">Female
+        <input type="radio" name="gender" id="female">Other
+        <br><br><br>
+        <label>Mobile</label>
+        <input type="text" id="mobile" placeholder="Mobile no">
+        <br><br>
+    <input type="submit" id="button" value="Submit">
+
+
+    </div>
+    
+</div>
+
+        </div>
+
+        <div class="footer">Footer</div>
+        
+
+    </div>
+</body>
+</html>
